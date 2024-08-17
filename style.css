@@ -229,9 +229,7 @@ a:hover::after {
     }
 
     .xicara {
-        top: 10px;
-        left: 10px;
-        width: 40px;
+        opacity: 0;
     }
 
     .texto-resultado {
