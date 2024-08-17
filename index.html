@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/xicara.png" alt="isso é uma xícara" class="xicara">
+    </header>
+    <main class="container">
+        <div class="input-area">
+            <textarea id="texto-entrada" rows="5" placeholder="Digite o texto aqui."></textarea>
+            <small><span class="exclamation">!</span> Apenas letras minúsculas e sem acento.</small>
+            <div class="botoes">
+                <button class="criptografar">Criptografar</button>
+                <button class="descriptografar">Descriptografar</button>
+            </div>
+        </div>
+        <div class="output-area">
+            <textarea class="texto-resultado" rows="5" readonly placeholder= "Nenhuma mensagem encontrada."></textarea>
+            <button class="copiar">Copiar</button>
+        </div>        
+    </main>
+    <footer>
+        Desenvolvido por <a href="https://www.linkedin.com/in/jhrufino/" target="_blank"> Jh Rufino.</a>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
